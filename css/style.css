@@ -1,0 +1,82 @@
+.hero_head{
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 56rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url(/img/home_bg_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.navbar-nav > li{
+  padding-left: 30px;
+
+}
+
+.logo_color{
+  color: #ff9ff3;
+}
+
+.highlight{
+  padding: 6rem 0;
+}
+
+.card-body a{
+  text-decoration: none;
+}
+
+.tips_sec{
+  padding: 8rem 0;
+}
+
+hr.divider{
+  max-width: 3rem;
+  border-width: 0.2rem;
+}
+
+.toys_sec{
+  width: 100%;
+  height: 80vh;
+  background:url(/img/toy_1.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.container h1{
+  text-align: center;
+  padding-top: 1rem ;
+}
+
+.toy-list{
+  background: #ffffff;
+}
+
+section .row{
+  padding-bottom: 3rem;
+}
+
+.bg-light{
+  background-color: #dfe6e9 !important;
+}
+
+.comments_sec{
+  width: 100%;
+  height: 80vh;
+  background:url(/img/comments.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.comments_sec h1{
+  color: #ffffff;
+}
+
+section .row {
+  padding-bottom: 1rem;
+}

@@ -2,13 +2,144 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Required meta tag always come first -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" , initial-scale=1 />
+
+  <!-- build:css css/main.css -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- endbuild -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300&display=swap"
+    rel="stylesheet">
   <title>MyJOURNEy</title>
 </head>
 
 <body>
+
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><span class="logo_color"><i class="fa fa-road fa-lg"
+            aria-hidden="true"></i>
+          My</span> Journey</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav justify-content-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"> <i class="fa fa-home fa-lg"></i> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="toys.html"><i class="fa fa-car fa-lg"></i> Toys </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="useful_item.html"><i class="fa fa-life-ring fa-lg"></i> Useful Items</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tips.html"><i class="fa fa-handshake-o fa-lg"></i> Tips </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comments.html"><i class="fa fa-commenting fa-lg"></i> Comments</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+  <!-- navbar end -->
+
+  <!-- header start-->
+
+  <header class="hero_head">
+    <div class="container d-flex h-100 align-item-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">My Journey</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Explore more about my toys</h2>
+        <a href="toys.html" class="btn btn-dark">Explore more</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- header end-->
+
+  <!-- section highlight start-->
+  <section class="highlight">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100 bg-danger">
+            <div class="card-body text-center">
+              <a href="toys.html" class="text-white"><i class="fa fa-car fa-2x text-white mb-2"></i>
+                <h4 class="m-0">Toys
+              </a></h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100 bg-primary">
+            <div class="card-body text-center">
+              <a href="useful_item.html" class="text-white"><i class="fa fa-life-ring fa-2x text-white mb-2"></i>
+                <h4 class="m-0">Useful Items
+              </a></h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100 bg-warning">
+            <div class="card-body text-center">
+              <a href="tips.html" class="text-white"><i class="fa fa-handshake-o fa-2x text-white mb-2"></i>
+                <h4 class="m-0">Tips
+              </a></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section highlight end-->
+
+  <!-- section Tips start -->
+
+  <section class="tips_sec bg-info">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">
+            Today's Tips
+          </h2>
+          <hr class="divider light my-4" />
+          <p class="text-white-50 mb-4">
+            Showing is better than telling --- I learn by watching you
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section tips end -->
+  <!-- footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted">Copyright © 2021 - My Journey</div>
+    </div>
+  </footer>
+
+  <!-- script files -->
+
+
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+
 
 </body>
 
